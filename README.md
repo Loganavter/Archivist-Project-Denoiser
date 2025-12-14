@@ -1,4 +1,4 @@
-# Archivist & Project Degrader
+<p align="center">Archivist & Project Degrader</p>
 
 <p align="center">
   <strong>A comprehensive suite for cel animation restoration: specialized AI models and the physics-based degradation simulator used to train them.</strong>
@@ -34,10 +34,10 @@ Unlike general-purpose denoisers, these models were trained on a **physically-si
 | Model (Click to Download) | Iterations | Role & Best Use Case | Comparison |
 | :--- | :--- | :--- | :--- |
 | [**AntiLines**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archivist_AntiLines.pth) | 457k | **The Cleaner.** Specifically targets **horizontal** lines, film tears, and scratches that cut through the frame. | [**View on ImgSLI**](https://imgsli.com/NDM0NTIy/0/1) |
-| [**Rough**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archiver_Rough.pth) | 493k | **The Rescuer.** For heavily damaged footage. Hallucinates lost details. *Note: overlaps partially with RGB capabilities but focuses on structure.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI2/0/4) |
-| [**Medium**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archiver_Medium.pth) | 478k | **The Workhorse.** Balanced removal of grain and dirt while preserving original texture. The best starting point. | [**View on ImgSLI**](https://imgsli.com/NDM0NTE3/0/2) |
-| [**Soft**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archiver_Soft.pth) | 453k | **The Artist.** Gentle restoration. Keeps film grain aesthetic. <br>⚠️ **Note:** *In some scenarios, standard DRUNet might yield subjectively better results. Always compare.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI5/0/5) |
-| [**RGB**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archiver_RGB.pth) | 193k | **The Specialist.** Targets heavy chromatic noise and color channel degradation. *Note: overlaps partially with Rough.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI3/0/3) |
+| [**Rough**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archivist_Rough.pth) | 493k | **The Rescuer.** For heavily damaged footage. Hallucinates lost details. *Note: overlaps partially with RGB capabilities but focuses on structure.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI2/0/4) |
+| [**Medium**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archivist_Medium.pth) | 478k | **The Workhorse.** Balanced removal of grain and dirt while preserving original texture. The best starting point. | [**View on ImgSLI**](https://imgsli.com/NDM0NTE3/0/2) |
+| [**Soft**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archivist_Soft.pth) | 453k | **The Artist.** Gentle restoration. Keeps film grain aesthetic. <br>⚠️ **Note:** *In some scenarios, standard DRUNet might yield subjectively better results. Always compare.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI5/0/5) |
+| [**RGB**](https://github.com/Loganavter/Archivist-Project-Denoiser/releases/download/v1.0/Archivist_RGB.pth) | 193k | **The Specialist.** Targets heavy chromatic noise and color channel degradation. *Note: overlaps partially with Rough.* | [**View on ImgSLI**](https://imgsli.com/NDM0NTI3/0/3) |
 
 > **Legacy Models:** Older versions (BW/RGB Denoise Compact) are available in the `Archived_2024` folder.
 
